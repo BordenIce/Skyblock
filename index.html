@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyBlock Guide – Hypixel SkyBlock fan site</title>
+  <meta name="description" content="A beginner-friendly guide to Hypixel SkyBlock: what it is, how to join, and what to do first.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#top">SkyBlock Guide</a>
+  <nav aria-label="Main">
+    <a href="#about">What is SkyBlock</a>
+    <a href="#gallery">Screenshots</a>
+    <a href="#features">Features</a>
+    <a href="#ranks">Ranks</a>
+    <a href="#join">How to join</a>
+    <a href="#rules">Rules</a>
+    <a href="#faq">FAQ</a>
+    <a class="nav-store" href="#store">Store</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Start with one island.<br>Build a whole economy.</h1>
+      <p>Hypixel SkyBlock drops you on a tiny floating island with a tree, a chest and a lot of void. Mine, farm, fight and trade your way up.</p>
+      <div class="ip-box">
+        <code id="ip">mc.hypixel.net</code>
+        <button id="copy" type="button">Copy server IP</button>
+      </div>
+      <div class="status" id="status" aria-live="polite">
+        <span class="dot" aria-hidden="true"></span>
+        <div>
+          <strong id="st-state">Checking server…</strong>
+          <span id="st-detail">Live status</span>
+        </div>
+      </div>
+      <p class="small">Java Edition 1.8.9 – 26.3. Join, then type <code>/play skyblock</code>.</p>
+    </div>
+
+  <img class="hero-img" src="images/island.png" alt="Мой остров в SkyBlock" width="520" height="340">
+  </section>
+
+  <section id="about" class="section">
+    <h2>What is SkyBlock?</h2>
+    <p class="lead">SkyBlock is a long-running survival game mode on Hypixel. You keep one character profile across seasons, so every hour you play adds to something permanent.</p>
+    <div class="two-col">
+      <p>You begin with almost nothing. Early on you break cobblestone and chop wood. Later you run minions that work while you're away, clear dungeons with a party, and sell loot on the Auction House and Bazaar.</p>
+      <p>There's no single way to win. Some players chase the strongest weapon, some farm crops for coins, and some just decorate their island.</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Screenshots</h2>
+    <div class="gallery">
+      <figure><img src="images/shot1.svg" alt="Dungeon fight" loading="lazy"><figcaption>Dungeons with a party</figcaption></figure>
+      <figure><img src="images/shot2.svg" alt="Minion farm on an island" loading="lazy"><figcaption>Minion farm</figcaption></figure>
+      <figure><img src="images/shot3.svg" alt="Auction House" loading="lazy"><figcaption>Auction House</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="features" class="section alt">
+    <h2>What you can do</h2>
+    <ul class="features">
+      <li>
+        <h3>Private island</h3>
+        <p>Your own space to build on, expand and invite friends to.</p>
+      </li>
+      <li>
+        <h3>Minions</h3>
+        <p>Place them on your island and they collect resources over time.</p>
+      </li>
+      <li>
+        <h3>Skills and collections</h3>
+        <p>Mining, farming, combat and more. Each level unlocks recipes and perks.</p>
+      </li>
+      <li>
+        <h3>Dungeons</h3>
+        <p>Team up and fight through floors of mobs and bosses for gear.</p>
+      </li>
+      <li>
+        <h3>Bazaar and Auction House</h3>
+        <p>Trade coins for items with other players across the server.</p>
+      </li>
+      <li>
+        <h3>Pets</h3>
+        <p>Level up companions that boost your stats while you play.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="ranks" class="section">
+    <h2>Ranks</h2>
+    <p class="lead">Ranks are optional. They add a coloured name tag and some convenience perks, and you can enjoy SkyBlock without one.</p>
+    <ul class="ranks">
+      <li>
+        <span class="badge vip">[VIP]</span>
+        <p>The entry rank. A green name tag and basic perks.</p>
+      </li>
+      <li>
+        <span class="badge vipp">[VIP<b>+</b>]</span>
+        <p>VIP with a gold plus and a few extra perks.</p>
+      </li>
+      <li>
+        <span class="badge mvp">[MVP]</span>
+        <p>An aqua name tag and a bigger perk set.</p>
+      </li>
+      <li>
+        <span class="badge mvpp">[MVP<b>+</b>]</span>
+        <p>MVP with a plus colour you can change.</p>
+      </li>
+      <li>
+        <span class="badge mvppp">[MVP<b>++</b>]</span>
+        <p>The monthly subscription rank with a gold name tag.</p>
+      </li>
+    </ul>
+    <p class="note">Perks and prices change. Check the <a href="https://store.hypixel.net" target="_blank" rel="noopener">official Hypixel Store</a> for the current list.</p>
+  </section>
+
+  <section id="join" class="section">
+    <h2>How to join</h2>
+    <ol class="steps">
+      <li><strong>Open Minecraft Java Edition</strong> and go to Multiplayer.</li>
+      <li><strong>Add the server</strong> with the address <code>mc.hypixel.net</code>.</li>
+      <li><strong>Join, then type</strong> <code>/play skyblock</code> in chat or click right with compass and select "Skyblock"</li>
+      <li><strong>Talk to the NPCs</strong> on your island and follow the first quests.</li>
+    </ol>
+  </section>
+
+  <section id="rules" class="section alt-light">
+    <h2>Rules</h2>
+    <p class="lead">Short version: play fair and be decent. Hypixel enforces its own rules, so read them before you join.</p>
+    <ul class="rules">
+      <li><h3>No cheating</h3><p>No hacked clients, macros that give an edge, or exploiting bugs.</p></li>
+      <li><h3>Be respectful</h3><p>No harassment, hate speech or threats in chat or on islands.</p></li>
+      <li><h3>No scamming</h3><p>Do not trick players out of coins or items in trades.</p></li>
+      <li><h3>No spam or ads</h3><p>Keep chat clean and do not advertise other servers.</p></li>
+      <li><h3>Protect your account</h3><p>Never share your password or log in through links from strangers.</p></li>
+      <li><h3>Follow staff</h3><p>If a moderator asks you to stop something, stop.</p></li>
+    </ul>
+    <p class="note"><a href="https://hypixel.net/rules" target="_blank" rel="noopener">Read the official Hypixel rules</a></p>
+  </section>
+
+  <section id="faq" class="section">
+    <h2>FAQ</h2>
+    <details>
+      <summary>Is SkyBlock free?</summary>
+      <p>Yes. You can play for free. Ranks and cosmetics are optional.</p>
+    </details>
+    <details>
+      <summary>Can I play on Bedrock?</summary>
+      <p>Hypixel is a Java Edition server. Check the official site for current platform support.</p>
+    </details>
+    <details>
+      <summary>What should I do first?</summary>
+      <p>Talk to the NPCs on your island, finish the starter quests, then set up your first minions.</p>
+    </details>
+    <details>
+      <summary>Do I lose progress between seasons?</summary>
+      <p>No. Your profile and items stay with you.</p>
+    </details>
+  </section>
+
+  <section id="store" class="store">
+    <div class="store-inner">
+      <h2>Store and links</h2>
+      <p>Everything below opens on Hypixel's official sites. This fan site sells nothing.</p>
+      <div class="store-links">
+        <a class="btn btn-gold" href="https://store.hypixel.net" target="_blank" rel="noopener">Hypixel Store</a>
+        <a class="btn" href="https://wiki.hypixel.net" target="_blank" rel="noopener">SkyBlock Wiki</a>
+        <a class="btn" href="https://hypixel.net" target="_blank" rel="noopener">Forums</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Unofficial fan site. Not affiliated with Hypixel Inc., Mojang or Microsoft.</p>
+</footer>
+
+<script>
+  const btn = document.getElementById('copy');
+  const ip = document.getElementById('ip').textContent;
+  btn.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(ip);
+      btn.textContent = 'Copied';
+    } catch {
+      btn.textContent = 'Press Ctrl+C on the IP';
+    }
+    setTimeout(() => (btn.textContent = 'Copy server IP'), 2000);
+  });
+
+  const status = document.getElementById('status');
+  const stState = document.getElementById('st-state');
+  const stDetail = document.getElementById('st-detail');
+
+  async function updateStatus() {
+    try {
+      const r = await fetch('https://api.mcsrvstat.us/3/mc.hypixel.net');
+      const d = await r.json();
+      if (d.online) {
+        const p = d.players || {};
+        const count = (p.online ?? 0).toLocaleString('en');
+        const max = p.max ? ' / ' + p.max.toLocaleString('en') : '';
+        status.dataset.state = 'online';
+        stState.textContent = 'Online';
+        stDetail.textContent = count + max + ' players' + (d.version ? ' · ' + d.version : '');
+      } else {
+        status.dataset.state = 'offline';
+        stState.textContent = 'Offline';
+        stDetail.textContent = 'The server is not responding';
+      }
+    } catch {
+      status.dataset.state = 'unknown';
+      stState.textContent = 'Status unavailable';
+      stDetail.textContent = 'Could not reach the status service';
+    }
+  }
+  updateStatus();
+  setInterval(updateStatus, 60000);
+</script>
+</body>
+</html>
